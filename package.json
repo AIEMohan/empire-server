@@ -1,0 +1,19 @@
+{
+  "name": "empire-server",
+  "version": "2.0.0",
+  "description": "Unified secure backend for VAULT, APEX, and CIPHER",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "pg": "^8.13.1",
+    "bcryptjs": "^2.4.3"
+  }
+}
